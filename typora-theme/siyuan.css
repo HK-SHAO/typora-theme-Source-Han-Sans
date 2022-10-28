@@ -1,23 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap');
+
 :root {
   /* == 字体设置 == */
   /* 基准字体 */
-  /* 备选：Times, "Times New Roman" */
-  --base-Latin-font: "思源黑体";
-  --base-Chinese-font: "思源黑体";
+  --base-Latin-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --base-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --base-font-size: 9.5pt;
   /* 引言字体 */
-  --quote-font: "思源黑体";
+  --quote-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   /* 这里字体用了10pt,比正文字体稍大 */
   --quote-font-size: 10pt;
   /* 代码字体（代码中的中文会调用 ui-font） */
-  --code-font: "Monaco", "Consolas";
+  --code-font: 'Source Code Pro', Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   /* 侧边栏字体 */
-  --ui-font: "思源黑体";
+  --ui-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   /* source mode 字体 */
   /* 默认调用 code-font 和 ui-font */
-  --sourceMode-font: "SF Mono", "思源黑体";
+  --sourceMode-font: "SF Mono", 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   /* 目录字体 */
   /* 默认调用 base-font */
   --toc-font: "";
@@ -30,26 +31,26 @@
   --table-font: "";
   /* 标题字体（总设置） */
   /* 注意，如果您使用macOS系统并更改了英文字体，请在此处更换标题英文字体粗体字重的postscript值 */
-  --heading-Latin-font: "思源黑体";
-  --heading-Chinese-font: "思源黑体";
+  --heading-Latin-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --heading-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   /* 标题字体分别设置 */
   /* 大标题（h1）字体 */
-  --title-Chinese-font: "思源黑体";
+  --title-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --title-font-size: 18pt;
   /* h2字体 */
-  --h2-Chinese-font: "思源黑体";
+  --h2-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --h2-font-size: 14pt;
   /* h3字体 */
-  --h3-Chinese-font: "思源黑体";
+  --h3-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --h3-font-size: 12pt;
   /* h4字体 */
-  --h4-Chinese-font: "思源黑体";
+  --h4-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --h4-font-size: 10pt;
   /* h5字体 */
-  --h5-Chinese-font: "思源黑体";
+  --h5-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --h5-font-size: 10pt;
   /* h6字体 */
-  --h6-Chinese-font: "思源黑体";
+  --h6-Chinese-font: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --h6-font-size: 9.5pt;
   /* 粗体样式设置 */
   /* 加粗风格时使用的字重；400等同于 normal，700等同于 bold，900等同于 heavy */
@@ -85,7 +86,7 @@ body {
   padding: 0 !important;
   margin: 0 !important;
   line-height: var(--base-line-height);
-  font-family: "思源黑体";
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   /* font-weight: 900; */
   /* text-indent: 2em; */
   /* counter-reset: tableHead 0 imgHead 0; */
